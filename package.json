@@ -21,7 +21,7 @@
     "url": "https://github.com/nallegrotti/exception-handler/issues"
   },
   "homepage": "https://github.com/nallegrotti/exception-handler#readme",
-  "dependencies": {
+  "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.0.2",
     "publish": "^0.6.0"
