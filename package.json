@@ -1,6 +1,6 @@
 {
   "name": "exception-handler",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A Class for exception treatment for JS",
   "main": "exception-handler.js",
   "scripts": {
