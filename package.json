@@ -1,6 +1,6 @@
 {
   "name": "exception-handler",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A Class for exception treatment for JS",
   "main": "exception-handler.js",
   "scripts": {
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/nallegrotti/exception-handler#readme",
   "dependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.0.2"
+    "mocha": "^3.0.2",
+    "publish": "^0.6.0"
   }
 }
