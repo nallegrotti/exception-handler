@@ -20,7 +20,7 @@ class Exception extends Error {
 	}
 
 	get stack() {
-		return super.stack + '\nCaused By: \n' + cause.stack;
+		return super.stack + '\nCaused By: \n' + this.cause.stack;
 	}
 }
 
