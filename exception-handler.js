@@ -1,7 +1,7 @@
 class Exception extends Error {
 	constructor (message, cause){
 		super(message);
-		this.cause = cause;
+		this.cause = cause || {};
 		this.other = this.always;
 	}
 
@@ -17,6 +17,10 @@ class Exception extends Error {
 		treatment(this);
 		this.other = function() {return this};
 		return this;		
+	}
+
+	get stack() {
+		return super.stack + '\nCaused By: \n' + cause.stack;
 	}
 }
 
